@@ -7,7 +7,7 @@ require 'dotenv/load'
 require_relative "./sayagain/cli"
 require_relative "./sayagain/cli/commands"
 
-EasyTranslate.api_key = ENV['GOOGLE_TRANSLATE_KEY']
+EasyTranslate.api_key = ENV['GOOGLE_TRANSLATE_API']
 
 module SayAgain
   class Error < StandardError; end

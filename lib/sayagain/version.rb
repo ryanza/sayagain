@@ -1,3 +1,3 @@
-module Saidwhat
+module SayAgain
   VERSION = "0.1.0"
 end

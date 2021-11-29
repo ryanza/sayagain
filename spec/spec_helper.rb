@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "saidwhat"
+require "sayagain"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
